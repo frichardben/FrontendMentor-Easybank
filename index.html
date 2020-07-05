@@ -8,7 +8,7 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/dist/style.css">
+    <link rel="stylesheet" href="dist/style.css">
     <title>Frontend Mentor | Easybank landing page</title>
 
 
@@ -27,12 +27,13 @@
 
 <body>
     <header class="header">
+        <div class="overlay"></div>
         <nav class="flex flex-jc-sb flex-ai-c">
             <a href="/" class="header__logo">
                 <img src="images/logo.svg" alt="Easybank">
             </a>
 
-            <a href="" class="header__menu hide-for-desktop">
+            <a id="btn-hamburguer" href="#" class="header__menu hide-for-desktop">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -64,7 +65,7 @@
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
     </div>
-    <script src="/app/js/script.js"></script>
+    <script src="app/js/script.js"></script>
 </body>
 
 </html>
